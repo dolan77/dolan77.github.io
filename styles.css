@@ -1,7 +1,7 @@
 
 
 body{
-    padding-top: 65px;
+    padding-top: 75px;
 }
 
 .card:hover{
@@ -91,10 +91,6 @@ body{
 
 .resume-section li {
     padding: 0rem 0.5rem;
-}
-
-.resume-section li:first-child{
-    border-left:none;
 }
 
 .resume-div ul li a {
