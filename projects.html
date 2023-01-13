@@ -23,9 +23,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html"><i class="bi bi-house" style="font-size:x-large;"></i></a>
-                <a class="nav-item nav-link" href="about.html"><i class="bi bi-person-circle" style="font-size:x-large;"></i></a>
-                <a class="nav-item nav-link active" href="projects.html"><i class="bi bi-easel-fill" style="font-size:x-large"></i><span class="visually-hidden">(current)</span></a>
+                <a class="nav-item nav-link" href="index"><i class="bi bi-house" style="font-size:x-large;"></i></a>
+                <a class="nav-item nav-link" href="about"><i class="bi bi-person-circle" style="font-size:x-large;"></i></a>
+                <a class="nav-item nav-link active" href="projects"><i class="bi bi-easel-fill" style="font-size:x-large"></i><span class="visually-hidden">(current)</span></a>
                 <a class="nav-item nav-link" href="https://github.com/dolan77" target="_blank" rel="noopener noreferrer"> <i class="bi bi-github" style="font-size:x-large;"></i></a>
                 <a class="nav-item nav-link" href="https://www.linkedin.com/in/dylan-huynh-13133b256/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"style="font-size:x-large;"></i></a>
 
@@ -62,8 +62,8 @@
                     <div class="card border-success mb-3">
                         <img src="images/site-screenshot.png" class="class-img-top rounded-top">
                         <div class="card-body">
-                            <h5 class="card-title">Personal Website</h5>
-                            <i class="fa-solid fa-window-maximize"></i>
+                            <h5 class="card-title"><span><i class="fa-solid fa-window-maximize"></i></span> Personal Website</h5>
+                            
                             <p class="card-text">This project is a personal website that I created in 2022. This is my first project using a language that I am very unfamiliar with. The
                                 website contains information about my resume and the projects I am currently working on.
                             </p>
@@ -72,15 +72,36 @@
                     </div>
                 </div>
 
+                <!-- Project 2: HoloTracker-->
+                <div class="col-12 col-md-6 col-lg-4 text">
 
+                    <div class="card border-success mb-3">
+                        <img src="images/hololive_tracker_logo.png" class="class-img-top rounded-top">
+                        <div class="card-body">
+                            <h5 class="card-title"><span><i class="fa-solid fa-magnifying-glass"></i></span> HoloTracker</h5>
+                            <p class="card-text">HoloTracker is a project that I created that consumes a Web API utilizing the ASP.NET MVC pattern. The project utilizes the HoloDex API found 
+                                <span><a href="https://api.holotools.app/v1/api-docs/" target="_blank" rel="noopener noreferrer">here.</a></span> The project sends a query to return Vtubers
+                                from Hololive, Nijisanji, or Independent Streamers that are currently streaming or planning to stream within the next 48 hours.
+                            </p>
+                            <p class="card-text">Because of my inexperience, I am unable to upload the project on GitHub Pages due to my use of the ASP.NET MVC pattern. There will be plans
+                                on uploading the project to a website but if you would like to check out the project, please run it locally on your machine through an IDE (Visual Studio).
+                            </p>
+    
+                            <a href="https://github.com/dolan77/HoloTracker" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Check it out here!</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
 
-                <!-- Project 2: Mega Wars-->
+                <!-- Project 3: Mega Wars-->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card border-success mb-3">
                         <img src="images/wars.png" class="class-img-top rounded-top">
                         <div class="card-body">
-                            <h5 class="card-title">Mega Wars</h5>
-                            <i class="bi bi-suit-spade-fill"></i><i class="bi bi-suit-heart-fill"><i class="bi bi-suit-diamond-fill"></i></i><i class="bi bi-suit-club-fill"></i>
+                            <h5 class="card-title"><span><i class="bi bi-suit-spade-fill"></i><i class="bi bi-suit-heart-fill"><i class="bi bi-suit-diamond-fill"></i></i><i class="bi bi-suit-club-fill"></i>
+                            </span> Mega Wars</h5>
+                            
                             <p class="card-text">Mega Wars is a project that takes a nice spin on the classic card game: Wars. This version of wars allows more than two players to play with 
                                 more than one deck, allowing for a single game to run many iterations until there is a winner. The project was done in C++.
                             </p>
@@ -88,9 +109,11 @@
                         </div>
                     </div>
                 </div>
+
+
+
             </div> <!-- end of rows containing cards div-->
 
-        
         </div> <!-- end of projects div-->
 
     <!-- start of projects in progress div-->
@@ -100,25 +123,6 @@
 
         <!-- cards are placed in a row of 3-->
         <div class="row g-3">
-
-            <div class="col-12 col-md-6 col-lg-4 text">
-
-                <div class="card border-success mb-3">
-                    <img src="images/hololive_tracker_logo.png" class="class-img-top rounded-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Hololive Tracker</h5>
-                        <p class="card-text">Hololive tracker is one of the first Web API's I plan to create. This site allows a user to look up hololive talents and displays if
-                            they are currently streaming or not, as well as their top 5 videos. This uses the hololive api found at 
-                            <span><a href="https://api.holotools.app/v1/api-docs/" target="_blank" rel="noopener noreferrer">here</a></span>
-                        </p>
-                        <p>This project is currently a work in progress</p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
 
             <div class="col-12 col-md-6 col-lg-4 text">
                 <div class="card border-success mb-3">
@@ -143,9 +147,9 @@
     <div class="container" style="padding-top: 30px;">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-top pb-3 mb-3">
-            <li class="nav-item"><a class="nav-link px-2 text-white" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link px-2 text-white" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link px-2 text-white" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link px-2 text-white" href="index">Home</a></li>
+            <li class="nav-item"><a class="nav-link px-2 text-white" href="about">About</a></li>
+            <li class="nav-item"><a class="nav-link px-2 text-white" href="projects">Projects</a></li>
           </ul>
         </footer>
       </div>
